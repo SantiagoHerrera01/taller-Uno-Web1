@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.cambiar-estilos {
+  position: absolute;
+  bottom: -20%;
+  right: 45%;
+}
+
+.cambiar-estilos input {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.cambiar-estilos input:hover {
+  color: black;
+}
+
+.body {
+  background-color: rgb(250, 236, 239);
+}
+
+.section {
+  position: relative;
+  left: 75px;
+  bottom: 60px;
+  width: 900px;
+  text-align: center;
+  display: flex;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px black;
+  margin: 100px;
+}
+
+.login {
+  background-color: white;
+  width: 450px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.login h1 {
+  margin-top: 2rem;
+  font-size: 36px;
+}
+.login__Redes__Form {
+  margin: 2rem 0;
+}
+.login__Redes__Enlace {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  margin: 1rem 4rem;
+  padding-top: 1rem;
+}
+.login__Redes__Enlace a {
+  color: black;
+  font-size: 1.9rem;
+  margin: 1rem;
+  width: 15%;
+  height: 45px;
+  border: 1px rgb(224, 224, 224) solid;
+  border-radius: 50%;
+}
+.login__Redes__Enlace a :hover {
+  color: blue;
+}
+.login__Redes__Enlace a i {
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.login__Ep {
+  padding: 0 1rem;
+}
+.login__Ep input {
+  margin: 0.5rem 2rem;
+  width: 20rem;
+  height: 2.5rem;
+  background-color: rgb(237, 237, 237);
+  border: none;
+}
+
+.reset__Pasword {
+  color: black;
+  text-decoration: none;
+}
+
+.send__Login {
+  background: linear-gradient(90deg, rgb(255, 95, 200) 3%, rgb(255, 101, 101) 100%, rgba(0, 212, 255, 0) 100%);
+  color: white;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 30%;
+  padding: 15px 4rem;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.specification {
+  background: linear-gradient(90deg, rgb(255, 95, 200) 3%, rgb(255, 101, 101) 100%, rgba(0, 212, 255, 0) 100%);
+  width: 450px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.specification__Space {
+  width: 500px;
+  color: white;
+}
+.specification h1 {
+  font-size: 34px;
+  width: 55%;
+  margin-top: 9rem;
+  margin-left: 6rem;
+  font-weight: bold;
+}
+.specification p {
+  width: 80%;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 22px;
+}/*# sourceMappingURL=style.css.map */
